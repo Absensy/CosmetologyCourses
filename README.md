@@ -1,2 +1,2 @@
-# Cosmetology-ourses
+# Cosmetology Courses
 Website "Cosmetologist Courses"
