@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>ValMari</title>
+    <link rel="icon" href="img/ValMari.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/ValMari.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- ШАПКА САЙТА -->
+    <header>
+        <!-- Мобильное бургер-меню -->
+        <div class="mobile-menu" id="mobileMenu">
+          <div class="menu-header">
+            <div class="menu-phone">
+              <img src="img/phone.png" alt="Телефон">
+              <span>0 (800) 508-622</span>
+            </div>
+            <img src="img/Close.png" id="closeMenu" class="close-btn" alt="Закрыть">
+          </div>
+          <ul class="menu-links">
+            <li><a href="#">Курсы обучения</a></li>
+            <li><a href="#">Вебинары</a></li>
+            <li><a href="#">Видео-уроки</a></li>
+            <li><a href="#">Блог</a></li>
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Прайс</a></li>
+            <li><a href="#">Расписание</a></li>
+            <li><a href="#">Акции</a></li>
+            <li><a href="#">Магазин</a></li>
+          </ul>
+          <div class="menu-social">
+            <a href="#"><img src="img/fb.png" alt="Facebook"></a>
+            <a href="#"><img src="img/inst.png" alt="Instagram"></a>
+          </div>
+        </div>
+        <div id="menuOverlay"></div>
+      <!-- Адаптивная версия (мобильная и планшетная) -->
+        <div class="header-adap">
+            <img src="img/burger-btn.png" id="openMenu"  class="burger-adap" alt="Меню">
+          <div><img src="img/logo.png" class="logo-adap" alt="ValMari"></div>
+          <div class="phone-adap"><img src="img/phone.png" class="phone-img" alt="Телефон">
+            <span style="padding-left: 10px;">0 (800) 508-622</span></div>
+        </div>
+        <!-- DEKSTOP-->
+        <div class="header-top">
+          <div class="logo">
+            <img src="img/logo.png" alt="ValMari">
+            <div class="logo-text">Учебный центр <br>эстетической кометологии</div>
+          </div>
+        <!-- КОНТАКТЫ -->
+          <div class="contact-social">
+            <img src="img/phone.png" alt="Телефон">
+            <span class="phone">0 (800) 508-622</span>
+            <a href="#"><img src="img/fb.png" alt="Facebook"></a>
+            <a href="#"><img src="img/inst.png" alt="Instagram"></a>
+            <img src="img/ru.png" alt="Russia">
+            <!-- Язык -->
+            <img src="img/arrow-down.png" alt="Arrow-down">
+          </div>
+        </div>
+    <!-- НАВИГАЦИЯ ШАПКИ -->
+        <nav>
+          <a href="#">Курсы обучения</a>
+          <a href="#">Вебинары</a>
+          <a href="#">Видео-уроки</a>
+          <a href="#">Блог</a>
+          <a href="#">О нас</a>
+          <a href="#">Прайс</a>
+          <a href="#">Расписание</a>
+          <a href="#">Акции</a>
+          <a href="#">Магазин </a>
+        </nav>
+    </header>
+    
+    <!-- БАННЕР ПРОФЕССИЯ КАТАЛОГОВ -->
+     <section class="webinar-banner">
+        <div class="webinar-text">
+            <h3>Бесплатный вебинар</h3>
+            <h1>ПРОФЕССИЯ<br>КОСМЕТОЛОГ</h1>
+            <p>Приглашаем на бесплатный вебинар<br>
+                для профессиональных косметологов и интересующихся этой профессией</p>
+            <div class="webinar-buttons">
+                <a href="#" class="btn-register">Зарегистрироваться</a>
+                <a href="#" class="btn-more">Узнать подробнее</a>
+            </div>
+        </div>
+        <div class="webinar-image">
+            <img src="img/cosmetologist.png" alt="kosmetolog">
+        </div>
+     </section>
+
+     <!-- БЛОК С ЦИФРАМИ -->
+    <section class="stats-section">
+    <div class="stat-item">
+        <h2>4000+</h2>
+        <p>Сертификатов<br>мы выдали</p>
+    </div>
+    <div class="stat-item">
+        <h2>3500+</h2>
+        <p>Моделей<br>в нашей базе</p>
+    </div>
+    <div class="stat-item">
+        <h2>1500+</h2>
+        <p>Специалистов<br>мы обучили</p>
+    </div>
+    <div class="stat-item">
+        <h2>5500+</h2>
+        <p>Довольных<br>клиентов</p>
+    </div>
+</section>
+
+<!-- СЛАЙДЕР -->
+<section class="slider-section">
+  <h2 class="title">Курсы обучения</h2>
+  <div class="slider-wrapper">
+    <!-- КНОПКА СЛЕВА -->
+    <button class="nav-btn prev" id="prev">&#10094;</button>
+    <div class="slider-track" id="sliderTrack">
+        <!-- КАРТОЧКА 1 -->
+      <div class="slide">
+        <div class="slide-card">
+            <h4>Курс для медиков</h4>
+            <div class="slide-title" style="color:#4a4cd4;">Канюльные техники</div>
+            <div class="slide-type offline">Оффлайн</div>
+            <div class="slide-date">1 – 4 мая</div>
+            <div style="display: flex;">
+            <div class="slide-description">
+            Краткое описание<br>Что-то о курсе<br>Пару фактов
+            </div>
+            <img src="img/head1.png" alt="head1png">
+            </div>
+            <div class="slide-availability">Свободно 2 из 15 мест</div>
+            <div class="slide-actions">
+            <a href="#" class="register1">Зарегистрироваться</a>
+            <a href="#" class="details1">Подробнее</a>
+            </div>
+        </div>
+    </div>
+    <!-- КАРТОЧКА 2 -->
+    <div class="slide">
+        <div class="slide-card">
+            <h4>Курс для медиков</h4>
+            <div class="slide-title" style="color:#55a630;">Мезотерапия и биоревитализация</div>
+            <div class="slide-type online">Онлайн</div>
+            <div class="slide-date">15 – 20 мая</div>
+            <div style="display: flex;">
+            <div class="slide-description">
+            Краткое описание<br>Что-то о курсе<br>Пару фактов
+            </div>
+            <img src="img/head1.png" alt="head1png">
+            </div>
+            <div class="slide-availability">Свободно 2 из 15 мест</div>
+            <div class="slide-actions">
+            <a href="#" class="register2">Зарегистрироваться</a>
+            <a href="#" class="details2">Подробнее</a>
+            </div>
+        </div>
+    </div>
+    <!-- КАРТОЧКА 3 -->
+    <div class="slide">
+        <div class="slide-card">
+            <h4>Курс для медиков</h4>
+            <div class="slide-title" style="color: #00b5ad;">Биогель – новое в косметологии</div>
+            <div class="slide-type master">Мастер-класс</div>
+            <div class="slide-date">2 – 5 августа</div>
+            <div style="display: flex;">
+                <div class="slide-description">
+                Краткое описание<br>Что-то о курсе<br>Пару фактов
+                </div>
+                <img src="img/head2.png" alt="head2png">
+            </div>
+            <div class="slide-availability">Свободно 2 из 15 мест</div>
+            <div class="slide-actions">
+            <a href="#" class="register3">Зарегистрироваться</a>
+            <a href="#" class="details3">Подробнее</a>
+            </div>
+        </div>
+    </div>
+    <!-- КАРТОЧКА 4 -->
+      <div class="slide">
+        <div class="slide-card">
+            <h4>Курс для медиков</h4>
+            <div class="slide-title" style="color:#4a4cd4;">Канюльные техники</div>
+            <div class="slide-type offline">Оффлайн</div>
+            <div class="slide-date">1 – 4 мая</div>
+            <div style="display: flex;">
+            <div class="slide-description">
+            Краткое описание<br>Что-то о курсе<br>Пару фактов
+            </div>
+            <img src="img/head1.png" alt="head1png">
+            </div>
+            <div class="slide-availability">Свободно 2 из 15 мест</div>
+            <div class="slide-actions">
+            <a href="#" class="register1">Зарегистрироваться</a>
+            <a href="#" class="details1">Подробнее</a>
+            </div>
+        </div>
+    </div>
+    <!-- КАРТОЧКА 5 -->
+    <div class="slide">
+        <div class="slide-card">
+            <h4>Курс для медиков</h4>
+            <div class="slide-title" style="color:#55a630;">Мезотерапия и биоревитализация</div>
+            <div class="slide-type online">Онлайн</div>
+            <div class="slide-date">15 – 20 мая</div>
+            <div style="display: flex;">
+            <div class="slide-description">
+            Краткое описание<br>Что-то о курсе<br>Пару фактов
+            </div>
+            <img src="img/head1.png" alt="head1png">
+            </div>
+            <div class="slide-availability">Свободно 2 из 15 мест</div>
+            <div class="slide-actions">
+            <a href="#" class="register2">Зарегистрироваться</a>
+            <a href="#" class="details2">Подробнее</a>
+            </div>
+        </div>
+    </div>
+    <!-- КАРТОЧКА 6 -->
+    <div class="slide">
+        <div class="slide-card">
+            <h4>Курс для медиков</h4>
+            <div class="slide-title" style="color: #00b5ad;">Биогель – новое в косметологии</div>
+            <div class="slide-type master">Мастер-класс</div>
+            <div class="slide-date">2 – 5 августа</div>
+            <div style="display: flex;">
+                <div class="slide-description">
+                Краткое описание<br>Что-то о курсе<br>Пару фактов
+                </div>
+                <img src="img/head2.png" alt="head2png">
+            </div>
+            <div class="slide-availability">Свободно 2 из 15 мест</div>
+            <div class="slide-actions">
+            <a href="#" class="register3">Зарегистрироваться</a>
+            <a href="#" class="details3">Подробнее</a>
+            </div>
+        </div>
+    </div>  
+    </div>
+
+    <!-- КНОПКА СПРАВА -->
+    <button class="nav-btn next" id="next">&#10095;</button>
+
+    <div class="slider-dots" id="sliderDots">
+        <span class="dot active" data-index="0"></span>
+        <span class="dot" data-index="1"></span>
+        <span class="dot" data-index="2"></span>
+        <span class="dot" data-index="3"></span>
+        <span class="dot" data-index="4"></span>
+        <span class="dot" data-index="5"></span>  
+    </div>
+  </div>
+</section>
+<!-- Подключение скрипта для слайдера -->
+<script src="JavaScript/slider1.js"></script>
+<!-- ПОДБОР КУРСОВ -->
+<form class="course-form">
+  <h2>Подбор курса</h2>
+  <label>
+    Имя*
+    <input type="text" name="name" required>
+  </label>
+  <label>
+    Телефон*
+    <input type="tel" name="phone" required>
+  </label>
+  <label>
+    Email
+    <input type="email" name="email">
+  </label>
+  <label>
+    Что вас интересует ?
+    <select name="interest">
+      <option value="">Выберите курс</option>
+      <option value="esthetic">Эстетическая косметология</option>
+      <option value="inject">Инъекционная косметология</option>
+      <option value="laser">Лазерная косметология</option>
+      <option value="online">Онлайн обучение</option>
+    </select>
+  </label>
+  <label>
+    Комментарий
+    <textarea name="comment" placeholder="Напишите ваш вопрос..."></textarea>
+  </label>
+  <button type="submit">Оставить заявку</button>
+</form>
+<script src="JavaScript/validacia.js"></script>
+
+<!-- БЛОК (О НАС) -->
+<section class="about-section">
+  <div class="about-container">
+    <div class="about-text fade-right">
+      <p class="about-subtitle">О нас</p>
+      <h2 class="about-title">
+        <span class="highlight">VALMARI</span><br>
+        Ведущий учебный центр эстетической косметологии
+      </h2>
+      <p class="about-description">
+        Описание может быть любое.<br>
+        Ведущий учебный центр эстетической косметологии.<br><br>
+        Более 5 лет мы проводим курсы сертифицированные курсы профессионального образования в области косметологии и индустрии красоты, здоровья и молодости
+      </p>
+    </div>
+    <div class="about-image fade-left">
+      <img src="img/people-img.png" alt="О нас">
+    </div>
+    <div class="about-button-wrapper fade-up">
+      <a href="#" class="about-button">Подробнее →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ОБУЧЕНИЕ КОСМЕТОЛОГОВ -->
+<section class="training-section">
+  <h2 class="title">Обучение косметологов</h2>
+  <div class="training-grid">
+    <a href="#" class="training-card large" style="background-image: url('img/bg-image1.png');">
+      <div class="card-content">
+        <h3>КУРСЫ КОСМЕТОЛОГИИ</h3>
+        <ul>
+          <li>эстетическая косметология</li>
+          <li>инъекционная косметология</li>
+          <li>лазерная косметология</li>
+        </ul>
+        <span class="arrow">→</span>
+      </div>
+    </a>
+    <a href="#" class="training-card large" style="background-image: url('img/bg-image2.png');">
+      <div class="card-content">
+        <h3>ОНЛАЙН ОБУЧЕНИЕ</h3>
+        <ul>
+          <li>вебинары</li>
+          <li>видеоматериалы</li>
+        </ul>
+        <span class="arrow">→</span>
+      </div>
+    </a>
+    <a href="#" class="training-card" style="background-image: url('img/bg-image3.png');">
+      <div class="card-content">
+        <h3>МАСТЕР-КЛАССЫ</h3>
+        <p>Мероприятия для повышения квалификации косметологов</p>
+        <span class="arrow">→</span>
+      </div>
+    </a>    
+
+    <a href="#" class="training-card" style="background-image: url('img/bg-image4.png');">
+      <div class="card-content">
+        <h3>РАСПИСАНИЕ</h3>
+        <p>Расписание курсов и мероприятий Valmari</p>
+        <span class="arrow">→</span>
+      </div>
+    </a>
+
+    <a href="#" class="training-card" style="background-image: url('img/bg-image5.png');">
+      <div class="card-content">
+        <h3>АКЦИИ</h3>
+        <p>Акции на обучение в центре эстетической косметологии Valmari</p>
+        <span class="arrow">→</span>
+      </div>
+    </a>
+  </div>
+</section>
+
+<!-- ВЕДЕМ НАБОР МОДЕЛЕЙ -->
+<section class="model-section">
+  <div class="model-container">
+    <div class="model-image fade-right">
+      <img src="img/woman-img.png" alt="Woman-img">
+    </div>
+    <div class="model-text">
+      <h2 class="model-title fade-left">
+        <span class="highlight">ВЕДЕМ НАБОР МОДЕЛЕЙ</span>
+      </h2>
+       <p class="model-description fade-left">
+        Мы предлагаем свои услуги для моделей.<br> <br>
+        Выберите процедуру или несколько процедур и наш менеджер проконсультирует вас и назовет ближайшую дату, когда вы сможете получить эту процедуру.
+       </p>
+       <div class="model-button-wrapper fade-up">
+        <a href="#" class="model-button">Стать моделью</a>
+       </div>
+    </div>
+
+  </div> 
+</section>
+
+<!-- ПОЧЕМУ-МЫ -->
+ <section class="why-us">
+  <h2 class="title">Почему-мы</h2>
+  <div class="why-us-cards">
+    <div class="card">
+    <h3>Преподаватели</h3>
+    <p>Наши преподаватели имеют многолетний опыт в сфере косметологии и совмещают преподавательскую
+       деятельность с практической работой в салонах красоты и других специализированных центрах.</p>
+    <span class="bg-number">01</span> 
+  </div>
+  <div class="card" style="background-color: #d4f4d1">
+    <h3>Сертификаты</h3>
+    <p>Удостоверение, сертификат и свидетельство, полученные у
+       нас по окончанию курсов, работают как лучшая "рекомендация" при приеме на работу.</p>
+    <span class="bg-number">02</span>
+  </div>
+  <div class="card">
+    <h3>Повышение квалификации</h3>
+    <p>Ежегодно, больше 2000 косметологов повышают квалификацию и уровень
+       профессионализма в просторных кабинетах нашего центра.</p>
+    <span class="bg-number">03</span>
+  </div>
+  </div>
+ </section>
+
+<!-- СЛАЙДЕР С АКЦИЯМИ -->
+<section class="slider-section">
+  <h2 class="title">Специальные предложения</h2>
+  <div class="slider-wrapper">
+    <!-- КНОПКА СЛЕВА -->
+    <button class="nav-btn prev" id="prev2">&#10094;</button>
+    <div class="slider-track" id="sliderTrack2">
+        <div class="slide"><img src="img/discount1.png" alt="акция1"></div>
+        <div class="slide"><img src="img/discount2.png" alt="акция2"></div>
+        <div class="slide"><img src="img/discount3.png" alt="акция3"></div>
+        <div class="slide"><img src="img/discount1.png" alt="акция1"></div>
+        <div class="slide"><img src="img/discount2.png" alt="акция2"></div>
+        <div class="slide"><img src="img/discount3.png" alt="акция3"></div>
+    </div>
+      <!-- КНОПКА СПРАВА -->
+    <button class="nav-btn next" id="next2">&#10095;</button>
+    <div class="slider-dots" id="sliderDots2">
+        <span class="dot2 active" data-index="0"></span>
+        <span class="dot2" data-index="1"></span>
+        <span class="dot2" data-index="2"></span>
+        <span class="dot2" data-index="3"></span>
+        <span class="dot2" data-index="4"></span>
+        <span class="dot2" data-index="5"></span>
+    </div>
+  </div>
+</section>
+<!-- Подключение скрипта для слайдера -->
+<script src="JavaScript/slider2.js"></script>
+
+<!-- ФОРМА ЗАЯВКИ -->
+<section class="callback-section">
+  <div class="callback-container">
+    <h2 class="callback-title">Закажите обратный звонок</h2>
+    <p class="callback-subtitle">Оставьте заявку в форме и наш менеджер свяжется с вами</p>
+    <form class="callback-form">
+        <input type="text" placeholder="Ваше имя" required>
+        <input type="tel" placeholder="Ваш номер телефона" required>
+        <button type="submit">Отправить</button>
+    </form>
+  </div>
+</section>
+ <!-- ВСПЛЫВАЮЩЕЕ ОКНО -->
+<div class="support-popup" id="supportPopup">
+  <div class="support-content">
+    <p>💬 Подскажем по обучению! Напишите нам 👇</p>
+    <a href="#" target="_blank" class="chat-btn">
+      <img src="img/tg.png" alt="Telegram"> Telegram-консультант
+    </a>
+    <button id="closeSupport" class="close-btn">×</button>
+  </div>
+</div>
+<!-- Значок Отзывов -->
+<button id="feedback-icon" title="Оставить отзыв">💬</button>
+
+<!-- Модальное окно -->
+<div id="feedback-modal">
+  <div class="modal-content">
+    <img src="img/Close.png" alt="Закрыть отзыв" class="close-btn-modal">
+    <h2>Оставить отзыв</h2>
+    <form id="feedback-form">
+      <input type="text" placeholder="Ваше имя" required />
+      <input type="tel" placeholder="Ваш номер телефона" required />
+      <textarea placeholder="Текст отзыва" required></textarea>
+      <button type="submit">Отправить отзыв</button>
+    </form>
+  </div>
+</div>
+
+<!-- ЯКОРЬ -->
+<div id="scroll-buttons">
+  <button id="scrollTopBtn" title="Наверх">↑</button>
+  <button id="scrollBottomBtn" title="Вниз">↓</button>
+</div>
+<!-- ПОДВАЛ -->
+ <footer class="footer">
+  <div class="footer-map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2565.07286104157!2d36.22479167689645!3d49.9912434203209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a0fa755e45e7%3A0x65ec04f8b0410828!2z0JrQu9C-0YfQutC-0LLRgdC60LDRjyDRg9C7LiwgMywg0KXQsNGA0YzQutC-0LIsINCl0LDRgNGM0LrQvtCy0YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsINCj0LrRgNCw0LjQvdCwLCA2MTAwMA!5e0!3m2!1sru!2snl!4v1748805708721!5m2!1sru!2snl"
+  style="width: 100%; min-height: 600px; height: 100%; border: 0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+  </div>
+  <div class="footer-info">
+    <div><img src="img/logo.png" alt="ValMari"></div>
+    <div class="footer-contacts">
+      <p><strong>0 (800) 508-622</strong></p>
+      <p>Харьков, Клочковская, д. 3</p>
+    <!-- СПИСОК -->
+    <div class="footer-links">
+      <ul>
+        <li><a href="#">Курсы обучения</a></li>
+        <li><a href="#">Вебинары</a></li>
+        <li><a href="#">Видео-уроки</a></li>
+        <li><a href="#">Прайс</li>
+        <li><a href="#">Расписание</a></li>
+      </ul>
+      <ul>
+        <li><a href="#">Акции</a></li>
+        <li><a href="#">О нас</a></li>
+        <li><a href="#">Блог</a></li>
+        <li><a href="#">Магазин</a></li>
+      </ul>
+    </div>
+    </div>
+    <div class="footer-social">
+      <a href="#"><img src="img/fb-white.png" alt="Facebook"></a>
+      <a href="#"><img src="img/inst-white.png" alt="Instagram"></a>
+    </div>
+    <div class="footer-policy">Политика конфиденциальности</div>
+  </div>
+</footer>
+<!-- СКРИПТЫ -->
+<script src="JavaScript/feedback.js"></script>
+<script src="JavaScript/window-up.js"></script>
+<script src="JavaScript/burger.js"></script>
+<script src="JavaScript/scroll.js"></script>
+<script src="JavaScript/animation.js"></script>
+
+</body>
+
+</html>
